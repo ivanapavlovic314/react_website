@@ -29,10 +29,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>Hello World!</h2>
-        <p>
-          My First React Project!
-        </p>
 
         <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}/>
         <ExpenseItem title={expenses[1].title} amount={expenses[1].amount} date={expenses[1].date}/>
