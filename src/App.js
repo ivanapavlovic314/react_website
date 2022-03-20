@@ -6,6 +6,7 @@ import Expenses from "./components/Expenses/Expenses";
 const App = () => {
 
   const expenses = [
+
     {
       id: 'e1',
       title: 'Toilet Paper',
